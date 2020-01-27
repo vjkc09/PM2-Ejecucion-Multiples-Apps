@@ -1,0 +1,15 @@
+apps:  
+  - script : ./Project-2/index.js
+    name   : 'project-2'
+    watch  : true
+    env    :
+      NODE_ENV: development
+    env_production:
+      NODE_ENV: production
+  - script : ./Project-1/index.js
+    name   : 'project-1'
+    watch  : true
+    env    :
+      NODE_ENV: development
+    env_production:
+      NODE_ENV: production
